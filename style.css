@@ -1,0 +1,26 @@
+body {
+    font-size: 14px;
+    color: #222;
+}
+
+about {
+    color: #222;
+}
+#main-container {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#logo {
+    text-align: center;
+    padding: 250px 0px 20px 0px;
+}
+
+.search {
+    text-align: center;
+}
+
+.searchbar {
+    
+}
