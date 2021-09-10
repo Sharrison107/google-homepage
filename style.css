@@ -3,9 +3,80 @@ body {
     color: #222;
 }
 
-about {
-    color: #222;
+.header {
+    display: flex;
 }
+
+a:link {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.about {
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 5px;
+}
+
+.store {
+    margin-top: 15px;
+    margin-right: 500px;
+
+}
+
+.gmail {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 1050px;
+    font-size: 12px;
+
+}
+
+.images {
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.apps-button {
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: inline-flex;
+    
+    
+  }
+
+
+.top-right {
+    margin-left: 100px;
+}
+
+  .apps-button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: gray;
+  }
+
 #main-container {
     display:flex;
     flex-direction: column;
@@ -14,13 +85,141 @@ about {
 
 #logo {
     text-align: center;
-    padding: 250px 0px 20px 0px;
-}
-
-.search {
-    text-align: center;
+    padding: 250px 0px 40px 0px;
 }
 
 .searchbar {
+    width: 100%;
+    max-width: 500px;
+    display: inline-flex;
+    height: auto;
+    margin-left: 700px;
+    
+
+}
+
+.searchbar__input {
+    flex-grow: 1;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(190, 180, 180);
+    border-radius: 50px;
+    height: 20px;
+    
+    
+}
+
+.searchbar__button {
+    position: absolute;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.mic-button {
+    position: absolute;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-top: 8px;
+    margin-left: 460px;
+    color: gray;
+
+}
+
+.buttons { 
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  
+    
+    
+}
+
+.Google-Search {
+    margin-right: 15px;
+    height: 36px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    width: 120px;
+    border-radius: 4px;
+    
+    
+
+}
+
+.Lucky {
+    height: 36px;
+    width: 120px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    
+}
+
+.Google-Search:hover {
+    border: 1px solid gray;
+    width: 150px;
+}
+
+.Lucky:hover {
+    border: 1px solid gray;
+    width: 150px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    
+    width: 100vw;
+}
+
+.footer-1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+    height: 40px;
+}
+
+.footer-2{
+    display: flex;
+    
+}
+
+.United_Kingdom {
+    
+    padding: 15px;
+}
+
+.advertising {
+    padding: 15px;
+}
+.business {
+    padding: 15px;
+}
+.HSW {
+    padding: 15px;
+}
+
+.carbon {
+    text-align: center;
+    padding: 15px;
+    margin-left: 475px;
+}
+.privacy {
+    padding: 15px;
+    margin-left: 600px;
+
+}
+.terms {
+    padding: 15px;
+
+}
+.settings {
+    padding: 15px;
+}
+.footer-list {
     
 }
